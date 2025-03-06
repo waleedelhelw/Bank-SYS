@@ -2,12 +2,12 @@
 #include<iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include"clsUser.h"
-#include"clsInputValidate.h"
+#include"core/clsUser.h"
+#include"lib/clsInputValidate.h"
 #include"clsScreen.h"
 #include"Global.h"
 #include"clsMainScreen.h"
-#include"clsLoginRegestir.h"
+#include"core/clsLoginRegestir.h"
 using namespace std;
 class clsLoginScreen: protected clsScreen
 {

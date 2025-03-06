@@ -1,8 +1,8 @@
 #pragma once
 #include<iostream>
 #include"clsScreen.h"
-#include"clsInputValidate.h"
-#include"clsBankClient.h"
+#include"lib/clsInputValidate.h"
+#include"core/clsBankClient.h"
 using namespace std;
 class clsTotalBalance
 {

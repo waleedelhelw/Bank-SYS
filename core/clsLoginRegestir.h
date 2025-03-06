@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 #include<fstream>
-#include"clsDate.h"
+#include"lib/clsDate.h"
 #include"Global.h"
 #include"clsUser.h"
 using namespace std;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include<iostream>
-#include"clsBankClient.h"
-#include"clsInputValidate.h"
+#include"core/clsBankClient.h"
+#include"lib/clsInputValidate.h"
 #include"clsMainScreen.h"
 #include"clsScreen.h"
 #include"clsDepositeScreen.h"

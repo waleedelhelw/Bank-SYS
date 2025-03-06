@@ -3,10 +3,10 @@
 #include<vector>
 #include<string>
 #include<fstream>
-#include"clsStrings.h"
+#include"lib/clsStrings.h"
 #include"clsPerson.h"
-#include"clsInputValidate.h"
-#include"clsUtil.h"
+#include"lib/clsInputValidate.h"
+#include"lib/clsUtil.h"
 //#include"Global.h"
 using namespace std;
 

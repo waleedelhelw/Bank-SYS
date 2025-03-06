@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
-#include"clsBankClient.h"
-#include"clsInputValidate.h"
+#include"core/clsBankClient.h"
+#include"lib/clsInputValidate.h"
 using namespace std;
 class clsUpdateClientScreen :protected clsScreen
 {

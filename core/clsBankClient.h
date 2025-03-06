@@ -3,9 +3,9 @@
 #include<vector>
 #include<string>
 #include<fstream>
-#include"clsStrings.h"
+#include"lib/clsStrings.h"
 #include"clsPerson.h"
-#include"clsInputValidate.h"
+#include"lib/clsInputValidate.h"
 class clsBankClient :public clsPerson
 {
 private:

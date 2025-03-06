@@ -4,7 +4,7 @@
 #include<string>
 #include <vector>
 #include <fstream>
-#include"clsStrings.h"
+#include"lib/clsStrings.h"
 class clsCurrency
 {
 

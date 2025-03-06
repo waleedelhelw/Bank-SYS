@@ -3,20 +3,20 @@
 #include<vector>
 #include<string>
 #include<fstream>
-#include"clsStrings.h"
-#include"clsPerson.h"
+#include"lib/clsStrings.h"
+#include"core/clsPerson.h"
 #include"clsScreen.h"
-#include"clsInputValidate.h"
-#include"clsListClientScreen.h"
-#include"clsAddNewClientScreen.h"
-#include"clsUpdateClientScreen.h"
-#include"clsDeleteClientScreen.h"
-#include"clsFindClientScreen.h"
-#include"clsTransActionScreen.h"
-#include"clsManageUsersScreen.h"
+#include"lib/clsInputValidate.h"
+#include"Screens/Client screens/clsListClientScreen.h"
+#include"Screens/Client screens/clsAddNewClientScreen.h"
+#include"Screens/Client screens/clsUpdateClientScreen.h"
+#include"Screens/Client screens/clsDeleteClientScreen.h"
+#include"Screens/Client screens/clsFindClientScreen.h"
+#include"Screens/Transactions Screens/clsTransActionScreen.h"
+#include"Screens/User Screens/clsManageUsersScreen.h"
 #include"Global.h"
 #include"clsLoginRegisterScreen.h"
-#include"clsCurrencyMainScreen.h"
+#include"Screens/Currency Screens/clsCurrencyMainScreen.h"
 using namespace std;
 class clsMainScreen :protected clsScreen
 {

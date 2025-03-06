@@ -1,9 +1,9 @@
 #pragma once
 #include<iostream>
-#include"clsCurrency.h"
+#include"core/clsCurrency.h"
 #include"clsScreen.h"
-#include"clsInputValidate.h"
-#include"clsStrings.h"
+#include"lib/clsInputValidate.h"
+#include"lib/clsStrings.h"
 using namespace std;
 class clsCurrencyMainScreen:clsScreen
 {

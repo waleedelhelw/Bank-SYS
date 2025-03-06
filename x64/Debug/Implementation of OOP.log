@@ -1,74 +1,74 @@
 ﻿  Implementation of OOP.cpp
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsStrings.h(48,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsStrings.h(48,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsStrings.h(53,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsStrings.h(53,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsStrings.h(65,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsStrings.h(65,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsStrings.h(202,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsStrings.h(202,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsStrings.h(333,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsStrings.h(333,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsStrings.h(381,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsStrings.h(381,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsInputValidate.h(126,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsInputValidate.h(126,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsInputValidate.h(130,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsInputValidate.h(130,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsUtil.h(65,5): warning C4102: 'defualt': unreferenced label
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\lib\clsUtil.h(65,5): warning C4102: 'defualt': unreferenced label
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsUser.h(267,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegesterUser' now defined to be 'public', previously it was defined to be 'private'
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsUser.h(267,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegesterUser' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'Implementation%20of%20OOP.cpp')
-      E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsUser.h(25,12):
+      E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsUser.h(25,12):
       see declaration of 'clsUser::stLoginRegesterUser'
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsBankClient.h(180,9): warning C4240: nonstandard extension used: access to 'clsBankClient::stTranserOPinfo' now defined to be 'public', previously it was defined to be 'private'
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsBankClient.h(180,9): warning C4240: nonstandard extension used: access to 'clsBankClient::stTranserOPinfo' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'Implementation%20of%20OOP.cpp')
-      E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsBankClient.h(151,10):
+      E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsBankClient.h(151,10):
       see declaration of 'clsBankClient::stTranserOPinfo'
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsBankClient.h(26,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsBankClient.h(26,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsBankClient.h(400,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsBankClient.h(400,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsDepositeScreen.h(54,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsDepositeScreen.h(54,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsDepositeScreen.h(60,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsDepositeScreen.h(60,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsWithdrawScreen.h(56,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsWithdrawScreen.h(56,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsWithdrawScreen.h(62,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsWithdrawScreen.h(62,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsTransferScreen.h(116,13): warning C4566: character represented by universal-character-name '\u2705' cannot be represented in the current code page (1252)
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsTransferScreen.h(116,13): warning C4566: character represented by universal-character-name '\u2705' cannot be represented in the current code page (1252)
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsTransferScreen.h(123,13): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (1252)
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsTransferScreen.h(123,13): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (1252)
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsTransferScreen.h(88,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsTransferScreen.h(88,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsTransferScreen.h(94,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\Screens\Transactions Screens\clsTransferScreen.h(94,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsCurrency.h(27,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsCurrency.h(27,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Implementation%20of%20OOP.cpp')
   
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsBankClient.h(306,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
-E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\clsUser.h(443,1): warning C4715: 'clsUser::Save': not all control paths return a value
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsBankClient.h(306,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+E:\programming\OOP\Classes\Implementation of OOP\Implementation of OOP\core\clsUser.h(443,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Implementation of OOP.vcxproj -> E:\programming\OOP\Classes\Implementation of OOP\x64\Debug\Implementation of OOP.exe

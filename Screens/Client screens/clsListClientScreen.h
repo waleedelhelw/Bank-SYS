@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-#include"clsBankClient.h"
+#include"core/clsBankClient.h"
 #include"clsMainScreen.h"
 using namespace std;
 class clsListClientScreen:protected clsScreen

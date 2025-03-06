@@ -1,17 +1,18 @@
 #pragma once
 #include<iostream>
 #include"clsScreen.h"
-#include"clsInputValidate.h"
-#include"clsBankClient.h"
+#include"lib/clsInputValidate.h"
+#include"core/clsBankClient.h"
 using namespace std;
-class clsDepositeScreen:protected clsScreen
+class clsWithdrawScreen:protected clsScreen
 {
 private:
 
-	/*static void _SetBalance(clsBankClient &client,float DepositeMoney)
+	/*static void _SetBalance(clsBankClient& client, float WithdrawMoney)
 	{
-		client.SetAccountBalance(DepositeMoney + client.AccountBalance());
+		client.SetAccountBalance(client.AccountBalance()- WithdrawMoney);
 	}*/
+	
 	static void _PrintClient(clsBankClient& client)
 	{
 		cout << "\nClient Card:";
@@ -32,12 +33,13 @@ private:
 	{
 		cout << "account balance of account number [" << client.AccountNumber() << "] has been " << client.AccountBalance();
 	}
+
 public:
-	static void Deposite()
+	static void Withdraw()
 	{
-		UpScreen("Deposite Screen ");
+		UpScreen("\tWithdraw Screen ");
 		string accountNumber = "";
-		cout << "Enter account number to deposite: ";
+		cout << "Enter account number to withdraw: ";
 		accountNumber = clsInputValidate::ReadString();
 		while (!clsBankClient::IsClientExit(accountNumber))
 		{
@@ -48,28 +50,28 @@ public:
 
 		clsBankClient client = clsBankClient::Find(accountNumber);
 		_PrintClient(client);
-		float DepositeMoney = 0;
+		float WithdrawMoney = 0;
 
-		cout << "\nHow much you want to deposite : ";
-		DepositeMoney = clsInputValidate::ReadFloatNumber();
+		cout << "\nHow much you want to withdraw : ";
+		WithdrawMoney = clsInputValidate::ReadFloatNumber();
 
 
-		while (DepositeMoney <= 5)
+		while (WithdrawMoney <= 5 ||WithdrawMoney>client.AccountBalance())
 		{
-			cout << "you cant deposite liss than 5 dolar : ";
-			DepositeMoney = clsInputValidate::ReadFloatNumber();
+			cout << "you cant witdraw liss than 5 dolar or more than ["<<client.AccountBalance()<<"] : ";
+			WithdrawMoney = clsInputValidate::ReadFloatNumber();
 
 		}
 
 		//clsBankClient::SetAccountBalance(DepositeMoney + clsBankClient::AccountBalance());
-		cout << "Are you sure you want to deposite [" << DepositeMoney << "] : ";
-		string answer="n";
+		cout << "Are you sure you want to withdraw [" << WithdrawMoney << "] : ";
+		string answer = "n";
 		answer = clsInputValidate::ReadString();
 
 		if (answer == "y" || answer == "Y")
 		{
-			//_SetBalance(client, DepositeMoney);
-			client.Deposite(DepositeMoney);
+			//_SetBalance(client, WithdrawMoney);
+			client.Withdraw(WithdrawMoney);
 			_printClientBalance(client);
 
 			clsBankClient::enSaveResults saveData;
@@ -91,8 +93,7 @@ public:
 				break;
 			}
 		}
-		
+
 	}
-	
 };
 

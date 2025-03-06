@@ -3,7 +3,7 @@
 #include<iostream>
 #include<iomanip>
 #include"Global.h"
-#include"clsDate.h"
+#include"lib/clsDate.h"
 using namespace std;
 class clsScreen
 {

@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include "clsScreen.h"
-#include "clsUser.h"
+#include "core/clsUser.h"
 #include <iomanip>
 using namespace std;
 
